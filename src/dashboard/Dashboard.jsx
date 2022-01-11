@@ -25,7 +25,7 @@ function Dashboard() {
 	};
 
 	useEffect(() => {
-		getUsers("oshrestha111");
+		getUsers("octocat");
 		// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, []);
 
