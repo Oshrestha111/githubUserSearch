@@ -9,10 +9,10 @@ let iconStylse = { color: "RGB(20, 66, 132)", fontSize: "1em", padding: "5px" };
 let iconstyles = { fontSize: "14px" };
 function Dashboard() {
 	const [users, setUsers] = useState({});
-	const [username, setUsername] = useState("oshrestha111");
+	const [username, setUsername] = useState("");
 
-	const getUsers = async () => {
-		const response = await fetch(`https://api.github.com/users/${username}`);
+	const getUsers = async (user) => {
+		const response = await fetch(`https://api.github.com/users/${user}`);
 		setUsers(await response.json());
 	};
 
@@ -21,11 +21,11 @@ function Dashboard() {
 	};
 
 	const handleClick = () => {
-		getUsers();
+		getUsers(username);
 	};
 
 	useEffect(() => {
-		getUsers();
+		getUsers("oshrestha111");
 		// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, []);
 
