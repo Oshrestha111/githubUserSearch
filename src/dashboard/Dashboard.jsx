@@ -3,7 +3,7 @@ import "./dashboard.css";
 import { FaPeriscope, FaSearch, FaTwitter } from "react-icons/fa";
 import { BsLink45Deg } from "react-icons/bs";
 import { DiGit } from "react-icons/di";
-import octocat from "../img/Octocat.png";
+// import octocat from "../img/Octocat.png";
 
 let iconStylse = { color: "RGB(20, 66, 132)", fontSize: "1em", padding: "5px" };
 let iconstyles = { fontSize: "14px" };
