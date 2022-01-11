@@ -9,7 +9,6 @@
 	height: 75%;
 	max-width: 900px;
 	margin: 0 auto;
-
 	display: flex;
 	justify-content: center;
 }
@@ -91,6 +90,7 @@
 .logo img {
 	height: 60px;
 	width: 65px;
+	border-radius: 50%;
 }
 
 .info-head {
@@ -112,21 +112,28 @@
 	color: #005ec6;
 }
 .bio {
-	padding-top: 10px;
+	margin-block: 20px;
 	font-size: 12px;
 	word-spacing: 2px;
 }
 
+.grid {
+	margin-top: 14px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	width: 100%;
+}
 .count {
 	background-color: RGB(20, 28, 47);
 	border-radius: 8px;
 	width: auto;
-	margin-top: -10px;
+	margin-top: 10px;
 	padding: 5px 10px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
+
 table {
 	width: 100%;
 }
