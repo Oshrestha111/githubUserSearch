@@ -26,8 +26,8 @@ function Dashboard() {
 
 	useEffect(() => {
 		getUsers();
+		// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, []);
-	console.log(users);
 
 	return (
 		<div className='section'>
@@ -50,7 +50,7 @@ function Dashboard() {
 					</div>
 					<div className='desc'>
 						<div className='logo'>
-							<img src={users?.avatar_url} />
+							<img src={users?.avatar_url} alt='octocat' />
 						</div>
 						<div className='right'>
 							<div className='info'>
