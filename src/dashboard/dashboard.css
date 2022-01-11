@@ -1,0 +1,153 @@
+.section {
+	background-color: RGB(14, 14, 14);
+	height: 100vh;
+	width: 100%;
+	padding-top: 80px;
+}
+.container {
+	background-color: RGB(20, 28, 47);
+	height: 75%;
+	max-width: 900px;
+	margin: 0 auto;
+
+	display: flex;
+	justify-content: center;
+}
+.wrapper {
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin-top: 20px;
+	padding: 30px;
+}
+.title {
+	position: relative;
+	width: 100%;
+	bottom: 25px;
+}
+.title h4 {
+	position: absolute;
+	left: 0;
+	font-size: 15px;
+	font-weight: 1000;
+}
+.title label {
+	position: absolute;
+	right: 0;
+	top: 0;
+	font-size: 11px;
+}
+.search-bar {
+	display: flex;
+	background-color: RGB(31, 42, 71);
+	width: 100%;
+	height: 30px;
+	padding: 8px;
+	border-radius: 8px;
+	justify-content: space-between;
+}
+
+.search-bar input {
+	background-color: RGB(31, 42, 71);
+	border: none;
+	color: RGB(129, 137, 158);
+	padding: 7px;
+	width: 300px;
+}
+.search-bar button {
+	width: 70px;
+	height: 30px;
+	background-color: RGB(0, 121, 254);
+	color: #fff;
+	font-size: 12px;
+	border: 1px solid RGB(0, 121, 254);
+	border-radius: 6px;
+}
+
+.search-bar,
+.desc {
+	margin: 8px;
+}
+
+.desc {
+	background-color: RGB(31, 42, 71);
+	display: grid;
+	grid-template-columns: 20% 80%;
+	grid-row-gap: 1em;
+	width: 100%;
+	height: 70%;
+	padding: 16px;
+	border-radius: 8px;
+}
+.logo {
+	padding: 8px;
+	background-color: azure;
+	border-radius: 50%;
+	height: 55px;
+	width: 60px;
+}
+.logo img {
+	height: 60px;
+	width: 65px;
+}
+
+.info-head {
+	display: flex;
+	justify-content: space-between;
+}
+.info h4 {
+	font-size: 16px;
+	word-spacing: 4px;
+	letter-spacing: 2px;
+}
+.info label {
+	font-size: 11px;
+	letter-spacing: 1px;
+}
+
+.name {
+	font-size: 12px;
+	color: #005ec6;
+}
+.bio {
+	padding-top: 10px;
+	font-size: 12px;
+	word-spacing: 2px;
+}
+
+.count {
+	background-color: RGB(20, 28, 47);
+	border-radius: 8px;
+	width: auto;
+	margin-top: -10px;
+	padding: 5px 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+table {
+	width: 100%;
+}
+th,
+td {
+	text-align: center;
+}
+th {
+	font-size: 13px;
+}
+td {
+	font-size: 18px;
+	font-weight: bolder;
+}
+.location {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+.location td {
+	font-size: 13px;
+	line-height: 1.5rem;
+}
