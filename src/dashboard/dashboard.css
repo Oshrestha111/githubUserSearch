@@ -81,11 +81,9 @@
 	border-radius: 8px;
 }
 .logo {
-	padding: 8px;
-	background-color: azure;
 	border-radius: 50%;
-	height: 55px;
-	width: 60px;
+	height: 60px;
+	width: 65px;
 }
 .logo img {
 	height: 60px;
