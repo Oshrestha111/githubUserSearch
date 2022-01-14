@@ -5,7 +5,7 @@ import { BsLink45Deg } from "react-icons/bs";
 import { DiGit } from "react-icons/di";
 // import octocat from "../img/Octocat.png";
 
-let iconStylse = { color: "RGB(20, 66, 132)", fontSize: "1em", padding: "5px" };
+let iconStyle = { color: "RGB(20, 66, 132)", fontSize: "30px", padding: "5px" };
 let iconstyles = { fontSize: "14px" };
 function Dashboard() {
 	const [users, setUsers] = useState({});
@@ -38,7 +38,7 @@ function Dashboard() {
 						<label> LIGHT </label>
 					</div>
 					<div className='search-bar'>
-						<FaSearch style={iconStylse} />
+						<FaSearch style={iconStyle} />
 						<input
 							onChange={handleChange}
 							value={username}
